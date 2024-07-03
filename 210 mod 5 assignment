@@ -1,0 +1,26 @@
+        <!-- Disclaimer Checkbox -->
+        <label for="waiver">Disclaimer acknowledgement:</label>
+        <input type="checkbox" id="waiver" name="Confirmed" required aria-required="true">
+
+        <!-- Drop-down control -->
+        <label for="contactReason">Reason for Contact:</label>
+        <select id="contactReason" name="ContactReason">
+            <option value="inquiry">General Inquiry</option>
+            <option value="support">Support Request</option>
+            <option value="feedback">Feedback</option>
+            <option value="other">Other</option>
+        </select>
+
+        <!-- Text Area -->
+        <label for="details">Details:</label>
+        <textarea id="details" name="Details" rows="5" cols="60" placeholder="Please type your request here." required aria-required="true"></textarea>
+
+        <!-- Submit button -->
+        <input type="submit" value="Send">
+    </form>
+
+    <footer>
+        <p>Copyright 2023</p>
+    </footer>
+</body>
+</html>
